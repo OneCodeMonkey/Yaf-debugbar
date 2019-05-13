@@ -1,0 +1,19 @@
+{
+    "require": {
+        "php": ">=5.5.9",
+        "symfony/debug": "2.6.*",
+        "symfony/var-dumper": "2.6.*",
+        "twig/twig": "^1.26",
+        "smarty/smarty": "~3.1",
+        "nesbot/carbon": "~1.21"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "App\\Models\\": "application/models"
+        }
+    },
+    "require-dev": {
+        "maximebf/debugbar": "^1.15"
+    }
+}
